@@ -67,14 +67,14 @@ public class Main3Activity extends AppCompatActivity {
 
     private void check()
     {
-         vehicle_no = e1.getText().toString().trim();
-         pass_word = e2.getText().toString().trim();
+        vehicle_no = e1.getText().toString().trim();
+        pass_word = e2.getText().toString().trim();
         Log.e(TAG, "check: "+vehicle_no +"ksdjv   "+pass_word);
         if(Objects.equals(vehicle_no, new_vehicle_no) && Objects.equals(pass_word,new_pass_word))
         {
             // Successful Login;
-            final Intent intent = new Intent(this,MainActivity.class);
-           startActivity(intent);
+             final Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
 
         }
         else
